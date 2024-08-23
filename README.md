@@ -1,8 +1,37 @@
-# React + Vite
+# Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A customizable and dynamic widget management dashboard built using **React** and **Vite**. This project allows users to manage multiple categories of widgets, search across all widgets, and dynamically add or remove widgets from categories. The project also features a modal for adding new widgets, with a user-friendly interface and a blurred background effect when the modal is open.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+- **Node.js** (v14.0.0 or later)
+- **npm** (v6.0.0 or later) or **yarn** (v1.22.0 or later)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Rutuja-coder08/Assignment-Dashboard.git
+   cd Assignment-Dashboard
+   ```
+
+2. **Install the dependencies:**
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   Using npm:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the development server, and you can view the dashboard in your browser at `http://localhost:5173/`.
