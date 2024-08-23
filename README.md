@@ -35,8 +35,8 @@ A customizable and dynamic widget management dashboard built using **React** and
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/cnapp-dashboard.git
-   cd cnapp-dashboard
+   git clone https://github.com/Rutuja-coder08/Assignment-Dashboard.git
+   cd Assignment-Dashboard
    ```
 
 2. **Install the dependencies:**
@@ -67,7 +67,7 @@ A customizable and dynamic widget management dashboard built using **React** and
    yarn dev
    ```
 
-   This will start the development server, and you can view the dashboard in your browser at `http://localhost:3000`.
+   This will start the development server, and you can view the dashboard in your browser at `http://localhost:5173/`.
 
 ## Project Structure
 
