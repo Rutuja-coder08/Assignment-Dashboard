@@ -1,5 +1,4 @@
-// AddWidgetModal.js
-import React from "react";
+import React, { useState } from "react";
 import "./AddWidgetModal.css";
 
 const AddWidgetModal = ({
@@ -15,6 +14,17 @@ const AddWidgetModal = ({
   addWidget,
   closeModal,
 }) => {
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleSaveChanges = () => {
+    if (!newWidgetName || !newWidgetContent) {
+      setErrorMessage("Widget name and content cannot be empty.");
+    } else {
+      setErrorMessage("");
+      addWidget();
+    }
+  };
+
   return (
     <>
       <div className="modal-overlay" onClick={closeModal} />
@@ -67,24 +77,30 @@ const AddWidgetModal = ({
             <h4>Add New Widget</h4>
           </div>
           <div className="add-widget">
-            <label htmlFor="">Widget Name:</label>
+            <label htmlFor="widget-name">Widget Name:</label>
             <input
+              id="widget-name"
               className="widget-name-input"
               type="text"
               placeholder="Name...."
               value={newWidgetName}
               onChange={(e) => setNewWidgetName(e.target.value)}
             />
-            <label htmlFor="">Widget Content:</label>
+            <label htmlFor="widget-content">Widget Content:</label>
             <textarea
+              id="widget-content"
               className="widget-name-input"
               placeholder="Content...."
               value={newWidgetContent}
               onChange={(e) => setNewWidgetContent(e.target.value)}
             />
           </div>
+          {errorMessage && <p className="error-message">{errorMessage}</p>}
           <div className="navbar-model-save-btn">
-            <button className="global-add-widget-btn" onClick={addWidget}>
+            <button
+              className="global-add-widget-btn"
+              onClick={handleSaveChanges}
+            >
               Save Changes
             </button>
           </div>

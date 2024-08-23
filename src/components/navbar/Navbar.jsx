@@ -10,7 +10,7 @@ const Navbar = ({ searchTerm, setSearchTerm }) => {
       <input
         type="text"
         className="search-bar"
-        placeholder="Search widgets across all categories..."
+        placeholder="Search widgets name across all categories..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
