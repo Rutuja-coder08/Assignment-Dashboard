@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.navbar span {
+  font-size: large;
+  color: #0b57d0;
+}
+
+.search-bar {
+  padding: 10px 5px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}

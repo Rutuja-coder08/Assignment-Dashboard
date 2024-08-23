@@ -1,0 +1,127 @@
+.add-widget-modal {
+  position: fixed;
+  height: 100%;
+  width: 40%;
+  top: 20%;
+  left: 60%;
+  transform: translate(0%, -20%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.modal-overlay {
+  position: fixed; /* Change from 'relative' to 'fixed' for full-screen coverage */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px); /* Apply the blur effect */
+  z-index: 999;
+}
+
+.manage-model {
+  margin: 10px;
+  padding: 10px;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.tab-button {
+  padding: 5px 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.tab-button.active {
+  color: #0b57d0;
+  border-bottom: 2px solid #0b57d0;
+}
+
+.add-widget {
+  margin: 10px;
+}
+
+.add-widget label {
+  font-weight: bold;
+}
+
+.widget-name-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.widget-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 20px;
+}
+
+.widget-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.widget-checkbox input {
+  margin-right: 10px;
+}
+
+.widget-checkbox label {
+  font-size: 16px;
+}
+
+.navbar-model {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0b57d0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-model-h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  background: #0b57d0;
+}
+
+.navbar-model-save-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.add-widget-modal .close-modal {
+  font-size: x-large;
+  border: none;
+  color: #fff;
+  background: none;
+}
+
+.add-widget-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #c7dded4f;
+}
+
+.dashboard-header-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-header-btn span {
+  font-size: large;
+}
+
+.global-add-widget-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
