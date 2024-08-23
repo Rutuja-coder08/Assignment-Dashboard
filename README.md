@@ -26,24 +26,12 @@ A customizable and dynamic widget management dashboard built using **React** and
    npm install
    ```
 
-   Using yarn:
-
-   ```bash
-   yarn install
-   ```
-
 3. **Start the development server:**
 
    Using npm:
 
    ```bash
    npm run dev
-   ```
-
-   Using yarn:
-
-   ```bash
-   yarn dev
    ```
 
    This will start the development server, and you can view the dashboard in your browser at `http://localhost:5173/`.
