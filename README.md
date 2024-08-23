@@ -47,12 +47,3 @@ A customizable and dynamic widget management dashboard built using **React** and
    ```
 
    This will start the development server, and you can view the dashboard in your browser at `http://localhost:5173/`.
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This **README** template should help you get started with your project documentation on GitHub. Customize the details as needed!
