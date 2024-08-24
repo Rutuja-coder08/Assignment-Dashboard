@@ -23,3 +23,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.global-add-widget-btn:hover {
+  border: 1px solid #0b57d0;
+  transform: scale(1.05);
+}

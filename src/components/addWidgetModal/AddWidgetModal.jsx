@@ -25,13 +25,20 @@ const AddWidgetModal = ({
     }
   };
 
+  const handleCancel = () => {
+    setNewWidgetName("");
+    setNewWidgetContent("");
+    setErrorMessage("");
+    closeModal();
+  };
+
   return (
     <>
       <div className="modal-overlay" onClick={closeModal} />
       <div className="add-widget-modal">
         <nav className="navbar-model">
           <h4>Manage Widget</h4>
-          <button className="close-modal" onClick={closeModal}>
+          <button className="close-modal" onClick={handleCancel}>
             &times;
           </button>
         </nav>
@@ -96,13 +103,20 @@ const AddWidgetModal = ({
             />
           </div>
           {errorMessage && <p className="error-message">{errorMessage}</p>}
-          <div className="navbar-model-save-btn">
-            <button
-              className="global-add-widget-btn"
-              onClick={handleSaveChanges}
-            >
-              Save Changes
-            </button>
+          <div className="navbar-model-btn-div">
+            <div className="navbar-model-btn">
+              <button className="global-add-widget-btn" onClick={handleCancel}>
+                Cancel
+              </button>
+            </div>
+            <div className="navbar-model-btn">
+              <button
+                className="global-add-widget-btn"
+                onClick={handleSaveChanges}
+              >
+                Confirm
+              </button>
+            </div>
           </div>
         </div>
       </div>

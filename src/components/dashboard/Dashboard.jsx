@@ -4,7 +4,7 @@ import { dashboardData } from "../../data";
 import Navbar from "../navbar/Navbar";
 import DashboardHeader from "../DashboardHeader/DashboardHeader";
 import Category from "../Category/Category";
-import AddWidgetModal from "../AddWidgetModal/AddWidgetModal";
+import AddWidgetModal from "../addWidgetModal/AddWidgetModal";
 import "./Dashboard.css";
 
 const Dashboard = () => {

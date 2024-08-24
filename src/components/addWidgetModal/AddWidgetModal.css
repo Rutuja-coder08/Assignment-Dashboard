@@ -29,8 +29,9 @@
 
 .tab-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10px;
+  padding-top: 5px;
 }
 
 .tab-button {
@@ -39,6 +40,9 @@
   background: none;
   cursor: pointer;
   font-size: 12px;
+}
+.tab-button:hover {
+  color: #0b57d0;
 }
 
 .tab-button.active {
@@ -62,6 +66,10 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 100%;
+}
+
+.widget-name-input:hover {
+  border: 1px solid #0b57d0;
 }
 
 .widget-list {
@@ -109,12 +117,16 @@
   color: #fff;
   background: #0b57d0;
 }
-
-.navbar-model-save-btn {
+.navbar-model-btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar-model-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 .add-widget-modal .close-modal {
@@ -124,6 +136,11 @@
   background: none;
 }
 
+.close-modal:hover {
+  color: #e74c3c;
+  transform: scale(1.3);
+}
+
 .add-widget-btn {
   padding: 10px 20px;
   font-size: 16px;
@@ -131,4 +148,9 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.add-widget-btn:hover {
+  border: 1px solid #0b57d0;
+  transform: scale(1.05);
 }
