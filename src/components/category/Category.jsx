@@ -16,7 +16,7 @@ const Category = ({ category, openModalForCategory, removeWidget }) => {
           />
         ))}
         <div className="widget">
-          <div className="center">
+          <div className="btn">
             <button
               className="add-widget-btn"
               onClick={() => openModalForCategory(category.id)}

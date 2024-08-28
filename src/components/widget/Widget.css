@@ -14,11 +14,15 @@
   border: 1px solid #ddd;
 }
 
-.widget .center {
+.widget .btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.widget .btn span {
+  font-size: large;
 }
 
 .widget h4 {
@@ -37,6 +41,7 @@
   top: 10px;
   right: 10px;
   cursor: pointer;
+  color: #0b57d0;
 }
 
 .remove-widget:hover {

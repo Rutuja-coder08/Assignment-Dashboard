@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { dashboardData } from "../../data";
 import Navbar from "../navbar/Navbar";
-import DashboardHeader from "../DashboardHeader/DashboardHeader";
+import DashboardHeader from "../dashboardHeader/DashboardHeader";
 import Category from "../Category/Category";
 import AddWidgetModal from "../addWidgetModal/AddWidgetModal";
 import "./Dashboard.css";

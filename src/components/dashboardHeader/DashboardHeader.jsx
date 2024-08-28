@@ -12,7 +12,10 @@ const DashboardHeader = ({ setModalOpen }) => {
         >
           Add Widget <span> + </span>
         </button>
-        <button className="global-add-widget-btn">Refresh</button>
+
+        <button title="Static Button" className="global-add-widget-btn">
+          Refresh
+        </button>
       </div>
     </div>
   );
